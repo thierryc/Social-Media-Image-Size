@@ -1,6 +1,6 @@
 {
   "name": "social-media-image-size",
-  "version": "1.0.2-2",
+  "version": "1.0.2-3",
   "description": "Social Media Image Maker: Image size repository",
   "main": "dist/index.js",
   "scripts": {
