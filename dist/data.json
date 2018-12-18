@@ -6,43 +6,125 @@
       "ProfilePhoto": {
         "name_en":"Profile Photo",
         "w": 180,
-        "h": 180
+        "h": 180,
+        "format": ["JPG", "GIF", "PNG"]
       },
       "CoverPhoto": {
         "name_en":"Cover Photo",
         "w": 820,
-        "h": 312
+        "h": 312,
+        "max": "100KB",
+        "format": ["JPG", "GIF", "PNG"]
       },
       "TimelineSharedImage": {
         "name_en":"Timeline Shared Image",
         "w": 1200,
-        "h": 630
+        "h": 630,
+        "format": ["JPG", "GIF", "PNG"]
       },
       "NewsfeedSharedImage": {
         "name_en":"Newsfeed Shared Image",
         "w": 1200,
-        "h": 630
+        "h": 630,
+        "format": ["JPG", "GIF", "PNG"]
       },
       "TimelineSharedLink": {
         "name_en":"Timeline Shared Link",
         "w": 1200,
-        "h": 628
+        "h": 628,
+        "format": ["JPG", "GIF", "PNG"]
       },
       "NewsfeedSharedLink": {
         "name_en":"Newsfeed Shared Link",
         "w": 1200,
-        "h": 628
+        "h": 628,
+        "format": ["JPG", "GIF", "PNG"]
       },
       "HighlightedImage": {
         "name_en":"Highlighted Image",
         "w": 1200,
-        "h": 717
+        "h": 717,
+        "format": ["JPG", "GIF", "PNG"]
       },
       "EventImage": {
         "name_en":"Event Image",
         "w": 1920,
-        "h": 1080
+        "h": 1080,
+        "format": ["JPG", "GIF", "PNG"]
       }
+    }
+  },
+  "Twitter": {
+    "name": "Twitter",
+    "color": "#3b5998",
+    "ProfilePhoto": {
+      "name_en":"Profile Photo",
+      "w": 400,
+      "h": 400,
+      "max": "2MB",
+      "format": ["JPG", "GIF", "PNG"]
+    },
+    "HeaderPhoto": {
+      "name_en":"Header Photo",
+      "w": 1500,
+      "h": 500,
+      "max": "5MB",
+      "format": ["JPG", "GIF", "PNG"]
+    },
+    "InStreamPhoto": {
+      "name_en":"In-Stream Photo",
+      "w": 506,
+      "h": 253,
+      "max": "3MB",
+      "format": ["JPG", "GIF", "PNG"]
+    }
+  },
+  "Pinterest": {
+    "name": "Pinterest",
+    "color": "#3b5998",
+    "ProfilePicture": {
+      "name_en":"Profile Picture",
+      "w": 165,
+      "h": 165,
+      "max": "10MB",
+      "format": ["JPG", "PNG"]
+    },
+    "Pins1": {
+      "name_en":"Pins (main page)",
+      "w": 236,
+      "h": 192,
+      "format": ["JPG", "PNG"]
+    },
+    "Pins2": {
+      "name_en":"Pins (on board)",
+      "w": 236,
+      "h": 238,
+      "format": ["JPG", "PNG"]
+    },
+    "Pins3": {
+      "name_en":"Pins (expanded)",
+      "w": 600,
+      "h": 735,
+      "format": ["JPG", "PNG"]
+    },
+    "Pins4": {
+      "name_en":"Pins (enlarged pin)",
+      "comment":"infinite height",
+      "w": 500,
+      "h": null,
+      "format": ["JPG", "PNG"]
+    },
+    "PinBoard": {
+      "name_en":"Pin Board (large thumbnail)",
+      "w": 222,
+      "h": 150,
+      "format": ["JPG", "PNG"]
+    },
+    "PinBoard2": {
+      "name_en":"Pin Board (smaller thumbnail)",
+      "w": 55,
+      "h": 55,
+      "format": ["JPG", "PNG"]
     }
   }
 }
