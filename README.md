@@ -1,6 +1,8 @@
 # Social-Media-Image-Size
 Social Media Image Maker: Image size repository
 
+Always Up-to-Date Social Media Image Sizes.
+
 Alpha version not for production
 
 This is the place to suggest iamge size additions or updates, or report bugs for [Social Media Image Maker](https:///). [Create an issue](https://github.com/thierryc/Social-Media-Image-Size/issues) and we'll talk.
@@ -80,3 +82,8 @@ import { facebook } from 'social-media-image-size'
 
 
 ```
+
+
+## other ressources
+
+https://sproutsocial.com/insights/social-media-image-sizes-guide/
