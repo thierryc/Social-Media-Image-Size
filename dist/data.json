@@ -111,7 +111,7 @@
       "name_en":"Pins (enlarged pin)",
       "comment":"infinite height",
       "w": 500,
-      "h": null,
+      "h": 0,
       "format": ["JPG", "PNG"]
     },
     "PinBoard": {
